@@ -1,6 +1,6 @@
 export default function Certificate({certificate}){
     return(
-        <div className=" flex flex-col hover:border hover:border-violet-500 bg-white mr-2 mb-3 p-3 rounded-xl
+        <div className="h-full flex flex-col hover:border hover:border-violet-500 bg-white p-3 rounded-xl
             dark:bg-violet-100/20 dark:text-white/90">
             <h2 className=" text-start font-semibold text-md">{certificate.title}</h2>
 

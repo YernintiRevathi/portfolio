@@ -77,7 +77,7 @@ export default function Education_and_Certificates(){
                 <div>
                     <h4 className="my-4 text-xl text-center text-slate-600 font-bold dark:text-white/60"><i className="text-2xl text-violet-500 fa-solid fa-award
                         dark:text-white/60"></i> Certifications</h4>
-                    <div className=" mt-4 grid grid-cols-2 max-sm:grid-cols-1 md:grid-cols-3 md:gap-5 items-stretch">
+                    <div className=" mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 items-stretch">
                         {
                             certificates.map((c,index)=>(
                                 <Certificate key={index} certificate={c}/>
