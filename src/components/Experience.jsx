@@ -13,7 +13,7 @@ export default function Experience({work}){
                 <p className="font-bold">{work.role}</p> 
                 <p className="flex font-normal items-center gap-2">
                     <span >{work.company}</span>
-                    {isopen ? <i className="fa-solid fa-chevron-up shrink-0  ml-auto"></i> : <i className="fa-solid fa-chevron-down shrink-0  ml-auto"></i> }
+                    {isopen ? <i className="fa-solid fa-chevron-up shrink-0  ml-auto"></i> : <i className="fa-solid fa-chevron-down shrink-0 ml-auto"></i> }
                 </p>
             </button>
 
