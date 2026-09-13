@@ -17,22 +17,22 @@ export default function Experience({work}){
             </button>
 
             <div className={`grid transition-all duration-200 ease-in-out  ${isopen ? ' grid-rows-[1fr] pb-4 opacity-100 ' :' grid-rows-[0fr] opacity-0'}`}>
-                <div className={`overflow-hidden w-full text-gray-600 text-start text-sm px-5`}>
+                <div className={`overflow-hidden w-full text-gray-600 text-start text-sm px-4 sm:px-5`}>
                     <p className="flex flex-row gap-2 items-center text-xs my-2">
                         <span className="bg-pink-600 font-bold text-white rounded-xl px-1 text-[11px]">{work.period}</span>
                         {work.isRemote && (<span className="remote bg-sky-300 rounded-xl px-2 font-semibold"><i className="fa-solid fa-location-dot"></i> Remote</span>)}
                     </p>
                     
-                    <p className="mt-2 text-wrap font-normal
+                    <p className="mt-2 font-normal leading-relaxed
                         dark:text-white/90">{work.description}</p>
 
                     <div className="mt-2">
                         <p className="font-bold text-sm dark:text-white/90">Key Achievements:</p>{
                         work.achievements.map((a,index)=>(
-                            <div key={index} className="flex flex-start items-baseline gap-2 font-normal
+                            <div key={index} className="flex flex-start gap-2 font-normal
                                 dark:text-white/90">
-                                <i className="fa-regular fa-circle-check text-sm text-lime-600"></i> 
-                                <p className="text-wrap">{a}</p>
+                                <i className="fa-regular fa-circle-check text-sm text-lime-600 mt-1 shrink-0"></i> 
+                                <p className="min-w-0 flex-1 leading-relaxed">{a}</p>
                             </div>
                         ))
                     }</div>

@@ -42,9 +42,9 @@ export default function Skills_and_Achievements(){
             "description":"Achieved first place in a 24-hour hackathon held at MVGR College of Engineering. Developed a Chrome Extension using JavaScript and NLP to detect and highlight dark UX patterns on websites, helping users avoid misleading subscriptions."
         },
         {
-            "title":"650-Day LeetCode Streak",
+            "title":"750-Day LeetCode Streak",
             "period":"Ongoing",
-            "description":"Demonstrated commitment to continuous learning through daily problem-solving. Solved 500+ problems, earning 19+ badges on Leetcode."
+            "description":"Demonstrated commitment to continuous learning through daily problem-solving. Solved 650+ problems, earning 30+ badges on Leetcode."
         },
         {
             "title":"HackerRank Achievements",

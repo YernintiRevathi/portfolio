@@ -10,7 +10,7 @@ export default function Certificate({certificate}){
                         dark:text-violet-300 dark:bg-violet-100/20 dark:border-violet-800">{certificate.company}</span>
                 </p>
                 
-                <a href={`${certificate.link}`} className="text-violet-500 mt-2 text-wrap text-xs font-normal
+                <a href={certificate.link} className="text-violet-500 mt-2 text-wrap text-xs font-normal
                     dark:text-white/90 dark:hover:text-violet-400"><i className="fa-solid fa-link"></i> View Certificate</a>
             </div>
         </div>
