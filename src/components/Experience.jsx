@@ -6,14 +6,14 @@ export default function Experience({work}){
     return(
         <div className=" lg:w-2/3 lg:mx-auto m-4 bg-white rounded-xl text-wrap
             dark:bg-violet-100/20 dark:text-white/90">
-            <button className="cursor-pointer w-full px-4 sm:px-5 py-4 border-0 flex flex-col sm:flex-row sm:items-center sm:justify-betweengap-1 sm:gap-3 text-left" 
+            <button className="cursor-pointer w-full px-4 sm:px-5 py-4 border-0 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-3 text-left" 
                 type="button"
                 onClick={()=>(setIsopen(p=>!p))}
             >
                 <p className="font-bold">{work.role}</p> 
                 <p className="flex font-normal items-center gap-2">
                     <span >{work.company}</span>
-                    {isopen ? <i className="fa-solid fa-chevron-up"></i> : <i className="fa-solid fa-chevron-down"></i> }
+                    {isopen ? <i className="fa-solid fa-chevron-up shrink-0  ml-auto"></i> : <i className="fa-solid fa-chevron-down shrink-0  ml-auto"></i> }
                 </p>
             </button>
 
