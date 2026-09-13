@@ -5,7 +5,7 @@ export default function Project({project}){
     // console.log(project);
 
     return(
-        <div className="hover:border hover:border-violet-500 overflow-hidden relative text-wrap h-60 lg:w-2/3 lg:mx-auto m-4 p-3 bg-white rounded-xl
+        <div className="hover:border hover:border-violet-500 overflow-hidden relative text-wrap h-60 lg:w-2/3 lg:mx-auto mb-4 p-3 bg-white rounded-xl
             dark:bg-stone-600 dark:text-white/90">
             <div className={`absolute inset-0 p-3 transition-all duration-300 ease-in-out
                 ${isopen ? '-translate-x-full opacity-0' : 'translate-x-0 opacity-100'}`}>
